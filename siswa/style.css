@@ -1,0 +1,191 @@
+/* Reset default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    background-color: #fff;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Form Styling */
+form {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Action Buttons */
+.actionButton a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+a[href*="edit"], a[href*="delete"] {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+a[href*="edit"] {
+    background-color: #ffc107;
+}
+
+a[href*="delete"] {
+    background-color: #dc3545;
+}
+
+a[href*="edit"], a[href*="delete"] {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a[href*="edit"]:hover, a[href*="delete"]:hover {
+    opacity: 0.8;
+}
+
+/* Tambah Data Button */
+.actionButtonn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.actionButtonn a {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.actionButtonn a:hover {
+    background-color: #0056b3;
+}
+
+/* Login Form Styling */
+.login-container {
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-container button:hover {
+    background-color: #0056b3;
+}
